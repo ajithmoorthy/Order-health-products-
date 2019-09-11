@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37105" started-at="2019-09-11T14:51:26Z" finished-at="2019-09-11T14:52:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37105" started-at="2019-09-11T14:51:26Z" finished-at="2019-09-11T14:52:03Z">
+      <class name="org.atmecs.practo.testscripts.PractoHome">
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.atmecs.practo.testscripts.PractoHome@3bfdc050]" name="setup" is-config="true" duration-ms="7093" started-at="2019-09-11T14:51:26Z" finished-at="2019-09-11T14:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="practohome(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.atmecs.practo.testscripts.PractoHome@3bfdc050]" name="practohome" duration-ms="29054" started-at="2019-09-11T14:51:34Z" data-provider="pharmacy" finished-at="2019-09-11T14:52:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.practo.com/health-products/pain-relief/l]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B PROTIN CHOCOLATE 200GM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[229]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[229]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- practohome -->
+      </class> <!-- org.atmecs.practo.testscripts.PractoHome -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
